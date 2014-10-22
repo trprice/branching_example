@@ -28,6 +28,8 @@
  *  Last Modified: Mon 29 Apr 2013 05:08:40 PM PDT
  */
 
+// Test comment
+
 #include <stdio.h>
 
 int main (int argc, char *argv[])
