@@ -38,6 +38,8 @@ TEST_F(BBoxTest, ConstructorWithoutArgsWorks) {
     // point so that we know the values propogated through correctly.
     EXPECT_EQ (INFINITY, b.pMin.x);
     EXPECT_EQ (-INFINITY, b.pMax.x);
+
+    printf ("Yet another test printf, but one that's different!\n");
 }
 
 
