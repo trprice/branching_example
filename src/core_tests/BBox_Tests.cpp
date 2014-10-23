@@ -53,6 +53,8 @@ TEST_F(BBoxTest, ConstructorToEncloseASinglePointWorks) {
     // point so that we know the values propogated through correctly.
     EXPECT_EQ (p.x, b.pMin.x);
     EXPECT_EQ (p.x, b.pMax.x);
+
+    printf ("Test printf\n");
 }
 
 
