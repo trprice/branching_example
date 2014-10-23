@@ -55,6 +55,8 @@ TEST_F(Matrix4x4Test, NoArgsConstructorWorks) {
     EXPECT_EQ (0, m.m[3][0]);
     EXPECT_EQ (0, m.m[3][1]);
     EXPECT_EQ (0, m.m[3][2]);
+
+    printf ("Test printf\n");
 }
 
 // Test args constructor
