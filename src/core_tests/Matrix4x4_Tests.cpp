@@ -87,6 +87,8 @@ TEST_F(Matrix4x4Test, MatrixConstructorWorks) {
     EXPECT_EQ (0, m.m[3][1]);
     EXPECT_EQ (0, m.m[3][2]);
     EXPECT_EQ (0, m.m[3][3]);
+
+    printf ("Test printf\n");
 }
 
 TEST_F(Matrix4x4Test, ArgsConstructorWorks) {
