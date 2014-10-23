@@ -38,6 +38,8 @@ TEST_F(BBoxTest, ConstructorWithoutArgsWorks) {
     // point so that we know the values propogated through correctly.
     EXPECT_EQ (INFINITY, b.pMin.x);
     EXPECT_EQ (-INFINITY, b.pMax.x);
+
+    printf ("Test printf\n");
 }
 
 
@@ -51,6 +53,8 @@ TEST_F(BBoxTest, ConstructorToEncloseASinglePointWorks) {
     // point so that we know the values propogated through correctly.
     EXPECT_EQ (p.x, b.pMin.x);
     EXPECT_EQ (p.x, b.pMax.x);
+
+    printf ("Test printf\n");
 }
 
 
@@ -67,6 +71,8 @@ TEST_F(BBoxTest, ConstructorTwoPointsHappyPathWorks) {
     //  - Because we know the Point constructors work, only test a unique point.
     EXPECT_EQ (p1.x, b.pMin.x);
     EXPECT_EQ (p2.x, b.pMax.x);
+
+    printf ("Test printf\n");
 }
 
 
