@@ -71,6 +71,8 @@ TEST_F(BBoxTest, ConstructorTwoPointsHappyPathWorks) {
     //  - Because we know the Point constructors work, only test a unique point.
     EXPECT_EQ (p1.x, b.pMin.x);
     EXPECT_EQ (p2.x, b.pMax.x);
+
+    printf ("Test printf\n");
 }
 
 
