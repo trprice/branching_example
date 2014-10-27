@@ -1,8 +1,10 @@
 INCLUDE_DIRECTORIES("${CORE_TESTS_DIR}")
 
 # Find the *.cpp files and add them to the executable.
-FILE (GLOB CPPSources *.cpp)
-ADD_EXECUTABLE (core_tests ${CPPSources})
+#FILE (GLOB CPPSources *.cpp)
+#ADD_EXECUTABLE (core_tests ${CPPSources})
+
+ADD_EXECUTABLE (core_tests BBox_Tests.cpp core_tests.cpp Normal_Tests.cpp pb_ray_h_tests.cpp Point_Tests.cpp Ray_Tests.cpp RayDifferential_Tests.cpp Vector_Tests.cpp)
 
 ADD_DEPENDENCIES (core_tests core)
 ADD_DEPENDENCIES (core_tests googletest)
